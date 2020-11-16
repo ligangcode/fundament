@@ -1,0 +1,224 @@
+.main {
+    width: 100%;
+    margin: 0 auto 0;
+}
+.container_12 .grid_8 {
+    width: 620px;
+}
+.flex-container a, .flexslider a, .flex-container a:active, .flexslider a:active, .flex-container a:focus, .flexslider a:focus {
+    outline: none;
+}
+.slides, .flex-control-nav, .flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flexslider {
+    margin: 0;
+    padding: 0;
+}
+.flexslider .slides> li {
+    display: none;
+    -webkit-backface-visibility: hidden;
+}
+.flexslider .slides img {
+    display: block;
+    max-width: 100%;
+}
+.flex-pauseplay span {
+    text-transform: capitalize;
+}
+.slides:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    height: 0;
+    content: ".";
+    line-height: 0;
+}
+html[xmlns] .slides {
+    display: block;
+}
+* html .slides {
+    height: 1%;
+}
+.no-js .slides> li:first-child {
+    display: block;
+}
+.flexslider {
+    position: relative;
+    zoom: 1;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+.flexslider .slides {
+    zoom: 1;
+}
+.flexslider .slides> li {
+    position: relative;
+}
+.flex-container {
+    position: relative;
+    zoom: 1;
+}
+.flex-caption {
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    color: #fff;
+    /*background-color: #92ce0a;*/
+    font: 24px '微软雅黑', sans-serif;
+}
+.flex-caption p {
+    margin: 0;
+}
+.c1{
+    background:center center no-repeat url(../images/style-green.png);
+}
+.c2 {
+    background:center center no-repeat url(../images/style-pu.png);
+}
+.c3 {
+    background:center center no-repeat url(../images/style-orange.png);
+}
+.c4 {
+    background:center center no-repeat url(../images/style-red.png);
+}
+.c5 {
+    background:center center no-repeat url(../images/style-blue.png);
+}
+.c6 {
+    background:center center no-repeat url(../images/style-deepblue.png);
+}
+.flex-direction-nav {
+    height: 0;
+}
+.flex-direction-nav .flex-disabled {
+    cursor: default;
+    opacity: .3;
+    filter: alpha(opacity=30);
+}
+.flex-control-nav {
+    position: absolute;
+    bottom: -30px;
+    width: 100%;
+    text-align: center;
+}
+.flex-control-nav li {
+    display: inline-block;
+    zoom: 1;
+    margin: 0 0 0 5px;
+    *display: inline;
+}
+.flex-control-nav li:first-child {
+    margin: 0;
+}
+.flex-control-nav a {
+    display: block;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    text-indent: -999em;
+    background: url(theme/bg_control_nav.png.html) no-repeat;
+}
+.flex-control-nav a.flex-active {
+    cursor: default;
+    background-position: 0 -26px;
+}
+.flex-caption h3 {
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+#responsiveFlag {
+    font-size: 0;
+    line-height: 0;
+}
+@media handheld, only screen and (min-width: 320px) {
+  .flexslider .slides> li {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      width:16.6666666%;
+      margin-right: -.25em;
+  }
+  .flexslider .slides img {
+      display: block;
+      max-width: 1000px;
+  }
+  .flex-caption {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+  }
+  #responsiveFlag {
+      display: block;
+  }
+}
+/*@media handheld, only screen and (min-width: 640px) {
+  .flexslider .slides> li {
+      position: relative;
+      display: inline-block;
+      overflow: hidden;
+      width: 20%;
+      margin-right: -.25em;
+  }
+  .flexslider .slides img {
+      display: block;
+      max-width: 1000px;
+  }
+  .flex-caption {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+  }
+  #responsiveFlag {
+      display: block;
+  }
+}
+@media handheld, only screen and (min-width: 1024px) {
+    .flexslider .slides> li {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        width: 20%;
+        margin-right: -.25em;
+    }
+    .flexslider .slides img {
+        display: block;
+        max-width: 1000px;
+    }
+    .flex-caption {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    #responsiveFlag {
+        display: block;
+    }
+}*/
+.flexslider .slides> li {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width:16.6666666%;
+    margin-right: -.25em;
+}
+.flexslider .slides img {
+    display: block;
+    max-width: 1000px;
+}
+.flex-caption {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#responsiveFlag {
+    display: block;
+}
