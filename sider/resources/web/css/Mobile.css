@@ -1,0 +1,170 @@
+.UnmobilePush{display: none;}
+.MobilePush{display:block;}
+body,input,textarea,button,select,legend,fieldset{font-family: inherit;}
+
+/*top*/
+.logo{padding: 10px 50px 0; float:none;  text-align:center; }
+.topLink{ display:none;}
+.mobile_top{ display:block; }
+
+/*banner*/
+.banner.wrap{ padding:0;}
+.banner{ height:260px;}
+.banner img{ width:640px; margin-left:-320px; }
+
+/*nav*/
+nav{ display:none;}
+
+/*imain*/
+.ijjfa_list li{ margin-bottom:10px;}
+.ijjfa_list li .title span{ background:none;}
+
+/*foot*/
+.foot_menu{ display:none;}
+.foot_inf{ padding:10px; }
+.foot_inf .copy_right{ float:none;}
+.foot_inf .copy_right em{ display:none;}
+.foot_inf .copy_right a{ display:block; margin-bottom:5px;}
+.foot_inf .desig_by{ float:none;}
+
+/*内页*/
+.n_menu li{ line-height:40px;}
+
+/*page*/
+.page .text,.page .sele_pg,.page .count{ display:none;}
+
+/*新闻*/
+.news_list li img{ display:none;}
+.NewsDetail-B4 ._bottom_bar a { margin: 0;}
+.hangye_list li{ width:100%; margin-right:0;}
+
+/*大事记*/
+.History-H3-tab .tab_t { padding:0 10px;}
+
+/*集团介绍*/
+.jtjs_tab{ padding:0; margin-top:20px;}
+.jtjstab_key li{ width:100px; margin-right:4px; padding-bottom:5px;}
+.jtjstab_key li .jstab_img{ height:38px;}
+.jtjstab_key li  .title{ display:none;}
+
+.jt_projs li { margin-bottom:10px;}
+.jt_projs li .jtpro_nr .sum{ height:auto; overflow:visible;}
+.jt_projs li .jtpro_nr{ margin-bottom:10px;}
+
+/*service*/
+.service_slide{ background:none;}
+.service_slide .bd{ width:302px;}
+.service_slide .bd li{ width:150px; overflow:hidden; text-align:center;}
+.service_slide .bd{ height:294px;}
+
+/*产品*/
+.pro_laylist li{ background:none; padding:0;}
+.pro_laylist li .img{ width:100%;}
+.pjjfa_list li{ margin-bottom:10px;}
+
+.pro_laylist li .proyy1{ display:none !important;}
+
+/*产品详细*/
+.prodet_left{ width:100%; float:none; margin-bottom:20px;}
+.prodet_right{ width:100%; float:none; }
+.prodet_left .pdet_sum{ min-height:104px;}
+.prodet_left .pdet_share{ display:none;}
+.prodet_right .pdet_img{ float:none; width:98%;}
+.prodet_right .pdet_smalimg{ float:none; width:100%;}
+.pdet_smalimg li{ border:1px solid #ddd; margin-bottom:10px; cursor:pointer; float:left; margin-right:2%; width:30%; margin-bottom:0; margin-top:10px;}
+
+/*荣誉*/
+.History-H4 .tab_c ul { background: url(../img/line.gif) 25px 0 repeat-y;  }
+.History-H4 .tab_c ._text{ float:right;}
+.History-H4 .tab_c .years{ left:0; margin-left:0;}
+.History-H4 .tab_c .nextjt{ left:17px; margin-left:0px;}
+.History-H4 .tab_c ._text .jt{ left:-9px; background: url(../img/hon_jt2.png) no-repeat 0 0;}
+.History-H4 .tab_c ._text{ width:70%;}
+
+/*job*/
+.JobList-J5 ._minfo strong { display:block; float:none; width:90%; text-align:left; padding-left:2%; font-size:14px;}
+.job_bottom ._btm ._btm1 { float: none; width: auto; margin-bottom:10px;}
+.job_bottom ._btm ._btm2 { float: none; width: auto; }
+.job_bottom ._btm ._layer { height: auto; padding: 10px; }
+.job_bottom ._btm ._img { display: none;}
+
+/*联系我们*/
+.contact_left{ width:100%; float:none;}
+.contact_right{ width:100%; float:none;}
+.contact_left li{ background:none; padding-left:0; line-height:22px; height:auto;}
+.contact_map{ height:200px; margin-top:20px;}
+
+/*留言表单*/
+.Form-M1 .Form-M1-Left { width: 100%; }
+.Form-M1 .Form-M1-li input { width: 68%; }
+.Form-M1 .Form-M1-right { width: 100%; }
+.Form-M1 .Form-M1-li textarea { width: 68%; }
+.Form-M1 .Form-M1-li input._yzm { width: 27%; }
+.Form-M1 .Form-M1-li b { display: none; }
+
+/*订购咨询*/
+.Form-P1 .Form-P1-Left { width: 100%; }
+.Form-P1 .Form-P1-li input { width: 68%; }
+.Form-P1 .Form-P1-li select { width: 54%; }
+.Form-P1 .Form-P1-right { width: 100%; }
+.Form-P1 .Form-P1-li textarea { width: 68%; }
+.Form-P1 .Form-P1-li input._yzm { width: 27%; }
+.Form-P1 .Form-P1-li b { display: none; }
+
+/*简历投递*/
+.Form-J1 .Form-J1-Left { width: 100%; }
+.Form-J1 .Form-J1-li input { width: 68%; }
+.Form-J1 .Form-J1-li select { width: 68%; }
+.Form-J1 .Form-J1-right { width: 100%; }
+.Form-J1 .Form-J1-li textarea { width: 68%; }
+.Form-J1 .Form-J1-li input._yzm { width: 27%; }
+.Form-J1 .Form-J1-li b { display: none; }
+
+.news_list li .more{ display:none;}
+
+/*新闻综合*/
+.news_top .newstop_right{  width:100%; margin-right:0; } 
+.topnews_list .tl_title{ width:100%;}
+.topnews_list .tl_date{ display:none;}
+.newslay_t{ margin-top:10px;}
+
+/*20141230*/
+.jingcai_list li{ width:100%; float:none;}
+.jingcai_list li .img{ display:none;}
+.jingcai_list li .nr{ width:100%; float:none;}
+.jingcai_list li .sum{ height:auto;}
+
+.ijjfa_list{ height:auto;}
+.ijjfa_list ul{ width:102%;}
+.ijjfa_list li{ width:48%; margin-right:2%; float:left;}
+
+.yanfa_tab .jtjstab_key li .jstab_img{ height:100px;}
+
+#map{ height:200px;}
+
+.service_nrqy .nr{ float:none; width:100%;}
+.service_nrqy .img{ display:none;}
+.service_nrqy .nr .title{ padding-left:0; background:none;}
+
+.JobList-J5 ._title .jobtt{ display:none;}
+.JobList-J5 ._minfo strong.t1{ text-indent:0;}
+
+.top{ border-top:5px solid #1a53a3;}
+
+.float_nr{ display:none;}
+
+/* 设备横屏 */
+@media all and (orientation : landscape){
+
+
+}
+
+
+
+
+
+
+
+
+
+

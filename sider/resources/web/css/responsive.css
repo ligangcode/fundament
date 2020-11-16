@@ -1,0 +1,29 @@
+@import url(Pad.css) screen and (max-width: 64em);
+@import url(Mobile.css) screen and (max-width: 40em);
+/*
+* 标识
+*/
+body:after {
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  content: 'Pc';
+}
+@media only screen and (max-width: 64em) {
+  /*
+* 标识
+*/
+  body:after {
+    content: 'Pad';
+  }
+}
+@media only screen and (max-width: 40em) {
+  /*
+* 标识
+*/
+  body:after {
+    content: 'Mobile';
+  }
+}

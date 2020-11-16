@@ -1,0 +1,48 @@
+body{overflow-x:hidden;user-select: none;-webkit-user-select: none;}
+.wrap{padding-left:2%;padding-right:2%;max-width: none;}
+.PcPush{display: none;}
+.UnpcPush{display: block;}
+
+/*gotop*/
+.foot .gotop{ display:none;}
+
+/*service*/
+.service_slide .bd{ width:744px;}
+
+
+/* 设备竖屏 */
+@media all and (orientation : portrait){
+
+/*nav*/
+.nav li{ width:16%;}
+.nav li ul li{ background:none;}
+
+/*foot*/
+.foot_menu li.fmenu_04{ display:none;}
+.foot_menu li{ padding-left:20px; padding-right:10px;}
+.foot_inf { padding:0px 20px 15px;}
+
+/*集团介绍*/
+.jtjstab_key li{padding-bottom:15px;}
+.jtjstab_key li.tab_t_cur{ background:none; }
+
+/*service*/
+.service_top{ background:#f3f8ff; padding:20px 4%; height:auto;}
+
+/*产品详细*/
+.prodet_left .pdet_con .pdet_con1{ font-size:14px;  width:37%; padding-left:18%;}
+.prodet_left .pdet_con .pdet_con2{ font-size:14px;  width:24%; padding-left:17%;}
+
+/*job*/
+.job_bottom ._btm ._layer { padding: 15px; height:85px;}
+.job_bottom ._btm ._img { display: none;}
+
+/*新闻综合*/
+.news_top .newstop_img{  width:37%; } 
+.news_top .newstop_right{  width:57%; padding-top:10px; } 
+
+.service_nrqy .nr .title{ padding-left:13%;}
+
+
+}
+
