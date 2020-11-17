@@ -1,0 +1,738 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>404页面</title>
+    <script language="javascript" type="text/javascript">
+        function backHomeClick(){
+            var currentHost = window.location.host;
+            window.location.href = "http://" + currentHost;
+        }
+
+        var i = 5;
+        var intervalid;
+        intervalid = setInterval("fun()", 1000);
+        function fun() {
+            if (i == 0) {
+                var currentHost = window.location.host;
+                window.location.href = "http://" + currentHost;
+                clearInterval(intervalid);
+            }
+            document.getElementById("js_skipTime").innerHTML = i;
+            i--;
+        }
+    </script>
+    <link rel="stylesheet" type="text/css" href="http://www.chinaaie.com.cn/public/css/base.css"/>
+    <style>body{
+            margin: 0;
+            padding: 0;
+        }
+
+
+        @media only screen and (max-width: 768px){/*小屏*/
+
+            .c_NotFound_detail-01001{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+            .c_NotFound_detail-01001 .p_detailBox{
+                width: auto;
+                height:100%;
+            }
+            .c_NotFound_detail-01001 .p_headBox{
+                width: 100%;
+                height: 82px;
+                display: -webkit-box;
+                display: -moz-box;
+                background-color: #008EAD;
+                -webkit-box-pack:center;
+                -moz-box-pack:center;
+                -webkit-box-align:center;
+                -moz-box-align:center;
+            }
+            .c_NotFound_detail-01001 .p_headBox:hover,.p_headBox:active{
+                border:none;
+                background-color: #008EAD;
+            }
+            .c_NotFound_detail-01001 .p_headBox .p_img{
+                width: auto;
+                height: auto;
+                display: inline-block;
+                margin-right:180px;
+                vertical-align: middle;
+            }
+            .c_NotFound_detail-01001 .p_headBox .p_img:hover:after{
+                background-color: transparent;
+            }
+            .c_NotFound_detail-01001 .p_wordBox{
+                display: none;
+                width: auto;
+                height:auto;
+                vertical-align: bottom;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_service{
+                width: auto;
+                height: auto;
+                display: inline-block;
+                vertical-align: top;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_service .font{
+                font-size:16px;
+                color: #fff;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+                line-height: 16px;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_service .font .iconfont:before{
+                content: "";
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_phone{
+                width: auto;
+                height: auto;
+                display: inline-block;
+                vertical-align: top;
+                padding: 0 5px 0 0;
+                color: #969696;
+                font-size: 12px;
+                text-align: left;
+                white-space: nowrap;
+                overflow: visible;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_phone .font{
+                font-size:16px;
+                color: #fff;
+                vertical-align: middle;
+                display: table-cell;
+                line-height: 18px;
+            }
+            .c_NotFound_detail-01001 .p_contentBox{
+                text-align: center;
+                width: auto;
+                height: auto;
+                position: absolute;
+                left: 50%;
+                top: 30%;
+                -webkit-transform: translate(-50%,-45%);
+                transform: translate(-50%,-45%);
+                overflow: visible;
+            }
+            .c_NotFound_detail-01001 .p_disableBox{
+                display: inline-block;
+                width: 520px;
+                height: auto;
+                margin-bottom: 40px;
+                overflow: visible;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameA{
+                display: block;
+                width: auto;
+                height: auto;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameA .font{
+                font-size:33px;
+                color:#fa932b;
+                text-align: left;
+                font-weight: bold;
+                line-height: normal;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameA .iconfont:before{
+                font-size:67px;
+                position: absolute;
+                top: 7px;
+                left: -80px;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameB{
+                display: block;
+                width: auto;
+                height: auto;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameB .font{
+                font-size:33px;
+                color:#fa932b;
+                text-align: left;
+                font-weight:bold;
+                line-height: normal;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameB .iconfont:before{
+                content:"";
+            }
+            .c_NotFound_detail-01001 .p_textBox{
+                width: 580px;
+                height: auto;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_AssistNameC .iconfont:before{
+                content: "";
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_AssistNameC{
+                display:block;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_AssistNameC .font{
+                font-size: 20px;
+                color: #666666;
+                text-align: left;
+                font-weight: bold;
+                line-height: normal;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_summary p{
+                font-size: 28px;
+                color: #666666;
+                font-family: "微软雅黑";
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_summary{
+                display: inline-block;
+                margin-bottom: 30px;
+                color: rgba(102,102,102,1);
+                font-size: 14px;
+                line-height: 26px;
+                text-align: left;
+                vertical-align: top;
+                word-break: break-all;
+                margin-left: 35px;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn{
+                border-width: 1px;
+                background: transparent;
+                border-radius: 8px;
+                height: 60px;
+                width: 100%;
+                text-align: center;
+                padding-top: 0;
+                padding-right: 20px;
+                padding-left: 20px;
+                position: inherit;
+                font-size: 18px;
+                background-color: rgba(58,188,98);
+                border-style: solid;
+                color: #ffffff;
+                margin: 30px;
+                line-height: 60px;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn:hover{
+                background-color: #008EAD;
+                box-shadow: 0 0 0 0 rgba(90,90,90,.8) inset;
+                color: rgba(255,255,255,1);
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgba(255,255,255,0);
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn:hover .font{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn:hover .iconfont:before{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn .font{
+                font-size: 18px;
+                display: table-cell;
+                vertical-align: middle;
+                bottom: 0;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn .font .iconfont{
+                margin-right: 5px;
+                display: inline;
+                vertical-align: middle;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn .iconfont:before{
+                content: "";
+                color: #008EAD;
+                font-size: 18px;
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                display: inline-block;
+            }
+
+
+            .c_NotFound_detail-01001 .p_CommonBtn1{
+                border-width: 1px;
+                border-color: #fa932b;
+                background: transparent;
+                border-radius: 8px;
+                height: 40px;
+                width: auto;
+                text-align: center;
+                padding-top: 0;
+                padding-right: 20px;
+                padding-left: 20px;
+                position: inherit;
+                font-size: 18px;
+                border-style: solid;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1:hover{
+                background-color:#fa932b;
+                box-shadow: 0 0 0 0 rgba(90,90,90,.8) inset;
+                color: rgba(255,255,255,1);
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgba(255,255,255,0);
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1:hover .font{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1:hover .iconfont:before{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1 .font{
+                font-size: 18px;
+                color: #fa932b;
+                display: table-cell;
+                vertical-align: middle;
+                bottom: 0;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1 .font .iconfont{
+                margin-right: 5px;
+                display: inline;
+                vertical-align: middle;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1 .iconfont:before{
+                content: "\e67c";
+                font-size: 18px;
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                display: inline-block;
+            }
+
+            .c_NotFound_detail-01001 .p_bottomBox{
+                width: 100%;
+                height: auto;
+                background-color: #F4F4F4;
+                position: fixed;
+                bottom: 0;
+                text-align: center;
+            }
+            .c_NotFound_detail-01001 .p_bottomBox:hover,.p_bottomBox:active{
+                background-color:#F4F4F4;
+                border:none;
+            }
+            .c_NotFound_detail-01001 .p_summaryA{
+                text-align: left;
+                padding: 10px 0;
+                display: inline-block;
+                width: 580px;
+                color: rgba(102,102,102,1);
+                font-size: 14px;
+                line-height: 26px;
+                vertical-align: top;
+                word-break: break-all;
+            }
+            .c_NotFound_detail-01001 .p_summaryA p{
+                margin: 10px 0;
+                color: #666666;
+                font-size: 12px;
+                font-family: "微软雅黑";
+
+            }
+
+            /* 新增返回首页内容 add by jialiping at 20180420 start */
+            .c_NotFound_detail-01001 .p_CommonBtnBox { overflow: hidden;}
+            .c_NotFound_detail-01001 .p_BackBtn{ min-width: 155px;}
+            .c_NotFound_detail-01001 .p_BackTip{ font-size: 24px;
+                line-height: 42px;
+                margin-left: 35px}
+            .c_NotFound_detail-01001 .p_BackTip b{padding:0 4px 0 0; color: #008EAD;}
+
+            .c_NotFound_detail-01001 .p_BackBtn{
+                background-color: rgba(27,122,228)
+            }
+            .c_NotFound_detail-01001  .p_BackBtnIndex{
+                background-color: rgba(27,122,228)
+            }
+
+            /* 新增返回首页内容 add by jialiping at 20180420 end */
+        }
+        @media only screen and (min-width: 769px){/*大屏*/
+
+            .c_NotFound_detail-01001{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+            }
+            .c_NotFound_detail-01001 .p_ZQDL{
+                display: none
+            }
+            .c_NotFound_detail-01001 .p_detailBox{
+                width: auto;
+                height:100%;
+            }
+            .c_NotFound_detail-01001 .p_headBox{
+                width: 100%;
+                height: 82px;
+                display: -webkit-box;
+                display: -moz-box;
+                background-color: #008EAD;
+                -webkit-box-pack:center;
+                -moz-box-pack:center;
+                -webkit-box-align:center;
+                -moz-box-align:center;
+            }
+            .c_NotFound_detail-01001 .p_headBox:hover,.p_headBox:active{
+                border:none;
+                background-color: #008EAD;
+            }
+            .c_NotFound_detail-01001 .p_headBox .p_img{
+                width: auto;
+                height: auto;
+                display: inline-block;
+                margin-right:180px;
+                vertical-align: middle;
+            }
+            .c_NotFound_detail-01001 .p_headBox .p_img:hover:after{
+                background-color: transparent;
+            }
+            .c_NotFound_detail-01001 .p_wordBox{
+                display: inline-block;
+                width: auto;
+                height:auto;
+                vertical-align: bottom;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_service{
+                width: auto;
+                height: auto;
+                display: inline-block;
+                vertical-align: top;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_service .font{
+                font-size:16px;
+                color: #fff;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+                line-height: 16px;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_service .font .iconfont:before{
+                content: "";
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_phone{
+                width: auto;
+                height: auto;
+                display: inline-block;
+                vertical-align: top;
+                padding: 0 5px 0 0;
+                color: #969696;
+                font-size: 12px;
+                text-align: left;
+                white-space: nowrap;
+                overflow: visible;
+            }
+            .c_NotFound_detail-01001 .p_wordBox .p_phone .font{
+                font-size:16px;
+                color: #fff;
+                vertical-align: middle;
+                display: table-cell;
+                line-height: 18px;
+            }
+            .c_NotFound_detail-01001 .p_contentBox{
+                text-align: center;
+                width: auto;
+                height: auto;
+                position: absolute;
+                left: 50%;
+                top: 45%;
+                -webkit-transform: translate(-50%,-45%);
+                transform: translate(-50%,-45%);
+                overflow: visible;
+            }
+            .c_NotFound_detail-01001 .p_disableBox{
+                display: inline-block;
+                width: 580px;
+                height: auto;
+                margin-bottom: 40px;
+                overflow: visible;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameA{
+                display: block;
+                width: auto;
+                height: auto;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameA .font{
+                font-size:33px;
+                color:#fa932b;
+                text-align: left;
+                font-weight: bold;
+                line-height: normal;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameA .iconfont:before{
+                content: "\e6d4";
+                font-size:67px;
+                position: absolute;
+                top: 7px;
+                left: -80px;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameB{
+                display: block;
+                width: auto;
+                height: auto;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameB .font{
+                font-size:33px;
+                color:#fa932b;
+                text-align: left;
+                font-weight:bold;
+                line-height: normal;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+            }
+            .c_NotFound_detail-01001 .p_disableBox .p_AssistNameB .iconfont:before{
+                content:"";
+            }
+            .c_NotFound_detail-01001 .p_textBox{
+                width: 580px;
+                height: auto;
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: left;
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_AssistNameC .iconfont:before{
+                content: "";
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_AssistNameC{
+                display:block;
+                color: #c8c8c8;
+                font-size: 12px;
+                text-align: right;
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_AssistNameC .font{
+                font-size: 20px;
+                color: #666666;
+                text-align: left;
+                font-weight: bold;
+                line-height: normal;
+                vertical-align: middle;
+                white-space: nowrap;
+                width: inherit;
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_summary p{
+                font-size: 20px;
+                color: #666666;
+                font-family: "微软雅黑";
+            }
+            .c_NotFound_detail-01001 .p_textBox .p_summary{
+                display: inline-block;
+                margin-bottom: 30px;
+                color: rgba(102,102,102,1);
+                font-size: 14px;
+                line-height: 26px;
+                text-align: left;
+                vertical-align: top;
+                word-break: break-all;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn{
+                border-width: 1px;
+                border-color: #008EAD;
+                background: transparent;
+                border-radius: 8px;
+                height: 40px;
+                line-height: 40px;
+                width: auto;
+                text-align: center;
+                padding-top: 0;
+                padding-right: 20px;
+                padding-left: 20px;
+                position: inherit;
+                font-size: 18px;
+                color: rgba(255,255,255,1);
+                border-style: solid;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn:hover{
+                background-color: #008EAD;
+                box-shadow: 0 0 0 0 rgba(90,90,90,.8) inset;
+                color: rgba(255,255,255,1);
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgba(255,255,255,0);
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn:hover .font{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn:hover .iconfont:before{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn .font{
+                font-size: 18px;
+                color: #008EAD;
+                display: table-cell;
+                vertical-align: middle;
+                bottom: 0;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn .font .iconfont{
+                margin-right: 5px;
+                display: inline;
+                vertical-align: middle;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn .iconfont:before{
+                content: "\e67c";
+                color: #008EAD;
+                font-size: 18px;
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                display: inline-block;
+            }
+
+
+            .c_NotFound_detail-01001 .p_CommonBtn1{
+                border-width: 1px;
+                border-color: #fa932b;
+                background: transparent;
+                border-radius: 8px;
+                height: 40px;
+                width: auto;
+                text-align: center;
+                padding-top: 0;
+                padding-right: 20px;
+                padding-left: 20px;
+                position: inherit;
+                font-size: 18px;
+                border-style: solid;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1:hover{
+                background-color:#fa932b;
+                box-shadow: 0 0 0 0 rgba(90,90,90,.8) inset;
+                color: rgba(255,255,255,1);
+                border-width: 1px;
+                border-style: solid;
+                border-color: rgba(255,255,255,0);
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1:hover .font{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1:hover .iconfont:before{
+                color: #fff;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1 .font{
+                font-size: 18px;
+                color: #fa932b;
+                display: table-cell;
+                vertical-align: middle;
+                bottom: 0;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1 .font .iconfont{
+                margin-right: 5px;
+                display: inline;
+                vertical-align: middle;
+            }
+            .c_NotFound_detail-01001 .p_CommonBtn1 .iconfont:before{
+                content: "\e67c";
+                font-size: 18px;
+                -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+                display: inline-block;
+            }
+
+            .c_NotFound_detail-01001 .p_bottomBox{
+                width: 100%;
+                height: auto;
+                background-color: #F4F4F4;
+                position: fixed;
+                bottom: 0;
+                text-align: center;
+            }
+            .c_NotFound_detail-01001 .p_bottomBox:hover,.p_bottomBox:active{
+                background-color:#F4F4F4;
+                border:none;
+            }
+            .c_NotFound_detail-01001 .p_summaryA{
+                text-align: left;
+                padding: 10px 0;
+                display: inline-block;
+                width: 580px;
+                color: rgba(102,102,102,1);
+                font-size: 14px;
+                line-height: 26px;
+                vertical-align: top;
+                word-break: break-all;
+            }
+            .c_NotFound_detail-01001 .p_summaryA p{
+                margin: 10px 0;
+                color: #666666;
+                font-size: 12px;
+                font-family: "微软雅黑";
+
+            }
+
+            /* 新增返回首页内容 add by jialiping at 20180420 start */
+            .c_NotFound_detail-01001 .p_CommonBtnBox { overflow: hidden;}
+            .c_NotFound_detail-01001 .p_CommonBtnBox > * { float: left; margin:0 10px 0 0;}
+            .c_NotFound_detail-01001 .p_BackBtn{ min-width: 155px;}
+            .c_NotFound_detail-01001 .p_BackTip{ font-size:16px; line-height: 42px;}
+            .c_NotFound_detail-01001 .p_BackTip b{padding:0 4px 0 0; color: #008EAD;}
+            /* 新增返回首页内容 add by jialiping at 20180420 end */
+        }
+        @media only screen and (max-width: 1024px) and (min-width: 769px){/*中屏*/
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+<div id="c_NotFound_detail-123456789" class="c_NotFound_detail-01001" >
+    <div class="e_box e_box-000 p_detailBox" >
+        <div class="e_box e_box-000 p_contentBox" >
+            <div class="e_box e_box-000 p_disableBox" >
+                <div class="e_title e_AssistName-001 p_AssistNameA">
+                    <div class="font">
+                        <i class="iconfont"></i>抱歉，您访问的页面不存在！
+                    </div>
+                </div>
+            </div>
+
+            <div class="e_box e_box-000 p_textBox" >
+                <article class="e_Article e_summary-001 p_summary">
+                    <p>错误码：404</p>
+                </article>
+                <div class="e_box e_box-000 p_CommonBtnBox">
+                    <div class="e_btn e_CommonIconBtn-001 p_CommonBtn p_BackBtnIndex" >
+                        <div class="font" onclick="javascript :history.go(-1);"><i class="iconfont"></i>返回上一页</div>
+                    </div>
+                    <a class="e_btn e_CommonIconBtn-001 p_CommonBtn p_BackBtn" data-ename-="返回首页">
+                        <div class="font" id="backHome" onclick="backHomeClick();">返回首页</div>
+                    </a>
+                    <div class="p_BackTip"><b id="js_skipTime">5</b>秒后自动为您返回到网站首页！</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
